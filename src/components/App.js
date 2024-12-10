@@ -14,7 +14,7 @@ const App = () => {
     <div>
         {/* Do not remove the main div */}
      <p>Button clicked {0} times</p>
-     <button onClick={increment}>Increment</button>
+     <button onClick={increment}>Click Me</button>
     </div>
   )
 }
