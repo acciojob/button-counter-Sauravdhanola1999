@@ -1,7 +1,7 @@
 
 import React from "react";
 import './../styles/App.css';
-import React, { useState } from "react";
+import { useState } from "react";
 
 
 const App = () => {
@@ -12,8 +12,7 @@ const App = () => {
 
   return (
     <div>
-        {/* Do not remove the main div */}
-     <p>Button clicked {0} times</p>
+     <p>Button clicked {count} times</p>
      <button onClick={increment}>Click Me</button>
     </div>
   )
